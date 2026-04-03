@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Maquina expendedora</title>
+        <link rel="stylesheet" href="assets/styles.css">
+    </head>
+    <body>
+        <h1>Máquina Expendedora</h1>
+        <p>Intenta adivinar un número entre 1 y 100.</p>
+
+        <label for="numero">Tu inento:</label>
+        <input type="number" id="numero" min="1" max="100">
+        <button onclick="verificarNumero()">Probar</button>
+
+
+        <div id="mensaje"></div> <!-- Aquí mostramos los mensajes -->
+
+        <button onclick="reiniciarJuego()">Reiniciar Juego</button>
+        
+        <script src="scripts/maquina.js"></script> <!-- Enlace a javascript -->
+    </body>
+</html>
