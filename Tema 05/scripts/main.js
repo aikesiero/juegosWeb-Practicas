@@ -1,4 +1,4 @@
-import EscenaBase from '.escenaBase.js';
+import EscenaBase from './escenaBase.js';
 
 // Configuración general del juego
 const config = {
